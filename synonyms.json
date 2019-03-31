@@ -1,0 +1,381 @@
+{
+    "Dumplings": [
+        "Dumplings"
+    ],
+    "New_London_Cuisine": [
+        "New_London_Cuisine"
+    ],
+    "afghanistan": [
+        "afghan"
+    ],
+    "africa": [
+        "Afrikanisches",
+        "african"
+    ],
+    "alpine_hut": [
+        "alpine_hut"
+    ],
+    "anatolia": [
+        "anatolian"
+    ],
+    "arab": [
+        "Arab",
+        "arab",
+        "arabic",
+        "arabisch"
+    ],
+    "argentine": [
+        "argentinisches",
+        "argentinian"
+    ],
+    "armenia": [
+        "armenian",
+        "armenean"
+    ],
+    "asia": [
+        "asian"
+    ],
+    "australia": [
+        "australian"
+    ],
+    "austria": [
+        "austrian"
+    ],
+    "ayurvedisch": [
+        "ayurvedisch"
+    ],
+    "bagel": [
+        "bagel"
+    ],
+    "balkan": [
+        "balkan"
+    ],
+    "bbq": [
+        "bbq",
+        "barbacue"
+    ],
+    "bierverkostung": [
+        "bierverkostung"
+    ],
+    "bosnia": [
+        "bosnian"
+    ],
+    "brazil": [
+        "brazilian"
+    ],
+    "breakfast": [
+        "breakfast"
+    ],
+    "bulgaria": [
+        "bulgarien",
+        "bulgarian"
+    ],
+    "burger": [
+        "burger"
+    ],
+    "canteen": [
+        "canteen"
+    ],
+    "caribbean": [
+        "caribbean"
+    ],
+    "casual_fine_dining": [
+        "casual_fine_dining"
+    ],
+    "catalonia": [
+        "catalan"
+    ],
+    "chicken": [
+        "chicken"
+    ],
+    "china": [
+        "chinese",
+        "cantonese",
+        "China"
+    ],
+    "coffee": [
+        "coffee_shop",
+        "cafe"
+    ],
+    "crepe": [
+        "crepe"
+    ],
+    "croatia": [
+        "croatian"
+    ],
+    "cuba": [
+        "cuban"
+    ],
+    "cyprus": [
+        "cyprian"
+    ],
+    "egypt": [
+        "egyptian",
+        "egypt"
+    ],
+    "fastfood": [
+        "fastfood"
+    ],
+    "fine_dining": [
+        "fine_dining"
+    ],
+    "fish": [
+        "fish"
+    ],
+    "fondue": [
+        "fondue"
+    ],
+    "france": [
+        "french"
+    ],
+    "frites": [
+        "frites"
+    ],
+    "georgia": [
+        "georgie",
+        "georgian"
+    ],
+    "germany": [
+        "deutsch",
+        "german",
+        "rhenish",
+        "sausage",
+        "swabian",
+        "bavarian",
+        "thuringian",
+        "Weine",
+        "altbayerisch",
+        "regional"
+    ],
+    "gourmet": [
+        "gourmet"
+    ],
+    "greece": [
+        "greek"
+    ],
+    "hawaii": [
+        "Hawaiian",
+        "hawaiian"
+    ],
+    "hummus": [
+        "hummus"
+    ],
+    "hungary": [
+        "hungarian"
+    ],
+    "ice_cream": [
+        "ice_cream"
+    ],
+    "india": [
+        "indian",
+        "Indische",
+        "Indisch"
+    ],
+    "indochina": [
+        "indochinese"
+    ],
+    "indonesia": [
+        "indonesian",
+        "indonesia"
+    ],
+    "international": [
+        "international"
+    ],
+    "iran": [
+        "persisch",
+        "iranian",
+        "persian"
+    ],
+    "israel": [
+        "israeli"
+    ],
+    "italy": [
+        "italian",
+        "Pizza",
+        "pizza",
+        "pasta"
+    ],
+    "jamaica": [
+        "Jamaican"
+    ],
+    "japan": [
+        "sushi",
+        "japanese",
+        "ramen",
+        "suhi"
+    ],
+    "jewish": [
+        "jewish"
+    ],
+    "korea": [
+        "korean",
+        "koreanisch"
+    ],
+    "laos": [
+        "laotian",
+        "laos"
+    ],
+    "latin": [
+        "latin-american",
+        "latin_american",
+        "lateinamerikanische"
+    ],
+    "latvia": [
+        "latvian"
+    ],
+    "lebanon": [
+        "libanese",
+        "lebanese"
+    ],
+    "lunch": [
+        "lunch"
+    ],
+    "macedonian": [
+        "macedonian"
+    ],
+    "malaysia": [
+        "malaysian"
+    ],
+    "mediterranean": [
+        "mediterranean"
+    ],
+    "mexico": [
+        "mexican"
+    ],
+    "modern_european_cusine": [
+        "modern_european_cusine"
+    ],
+    "morocco": [
+        "moroccan"
+    ],
+    "nepal": [
+        "nepalese",
+        "nepal",
+        "nepali"
+    ],
+    "norway": [
+        "norgewian"
+    ],
+    "oriental": [
+        "oriental"
+    ],
+    "other": [
+        "other"
+    ],
+    "pakistan": [
+        "pakistani"
+    ],
+    "peru": [
+        "peruvian"
+    ],
+    "philippines": [
+        "filipino",
+        "philippinisch",
+        "phillipinian"
+    ],
+    "poland": [
+        "polish"
+    ],
+    "portugal": [
+        "portuguese"
+    ],
+    "potato": [
+        "potato"
+    ],
+    "pubfood": [
+        "pubfood"
+    ],
+    "russia": [
+        "russian"
+    ],
+    "salad": [
+        "salad",
+        "salads"
+    ],
+    "sandwich": [
+        "sandwich"
+    ],
+    "scandinavia": [
+        "scandinavian"
+    ],
+    "seafood": [
+        "seafood"
+    ],
+    "singapore": [
+        "singaporean",
+        "Singapuri",
+        "singapore"
+    ],
+    "slovak_slow_food": [
+        "slovak_slow_food"
+    ],
+    "soul_food": [
+        "soul_food"
+    ],
+    "soup": [
+        "soup",
+        "soups"
+    ],
+    "southern_states": [
+        "southern_states"
+    ],
+    "spain": [
+        "spanish",
+        "tapas"
+    ],
+    "steak": [
+        "steak",
+        "steak_house"
+    ],
+    "sudan": [
+        "sudanese"
+    ],
+    "switzerland": [
+        "swiss"
+    ],
+    "syria": [
+        "syrian"
+    ],
+    "taiwan": [
+        "taiwanese"
+    ],
+    "thailand": [
+        "thai"
+    ],
+    "tibet": [
+        "tibetan"
+    ],
+    "trinidad": [
+        "trinidad"
+    ],
+    "turkey": [
+        "turkish",
+        "kebab"
+    ],
+    "ukraine": [
+        "ukrainian"
+    ],
+    "uzbekistan": [
+        "uzbek"
+    ],
+    "veggie": [
+        "vegetarian",
+        "vegan"
+    ],
+    "verschieden": [
+        "verschieden"
+    ],
+    "vietnam": [
+        "vietnamese",
+        "Vietnamesische",
+        "vietnam",
+        "viet-food",
+        "viet"
+    ],
+    "wine_tavern": [
+        "wine_tavern"
+    ],
+    "yugoslavia": [
+        "yugoslavian"
+    ]
+}
