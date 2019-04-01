@@ -3,13 +3,14 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import json
-from collections import Counter, defaultdict
+from collections import defaultdict
 
+import geocoder
 from sklearn.cluster import KMeans
 from sklearn.metrics import pairwise_distances_argmin_min
 from scipy.spatial.distance import cdist
 
-from prepare_dataframe import extract_df_restaurants, extract_df_stations
+from prepare_dataframe import extract_df_restaurants
 
 # Restaurants with more than fifteen entries at database
 cuisines = ['arab', 'asia', 'austria', 'burger', 'china', 'coffee',
@@ -18,16 +19,15 @@ cuisines = ['arab', 'asia', 'austria', 'burger', 'china', 'coffee',
             'mexico', 'spain', 'steak', 'thailand', 'turkey', 'veggie',
             'vietnam']
 
-# cuisines = ['italy']
+# cuisines = ['asia']
 
 with open('synonyms.json', 'r') as fp:
     synonyms_dict = json.load(fp)
 
-clusters_number = 7  # By now!
+clusters_number = 4  # By now!
 
 for cuisine in cuisines:
-    restaurants_df = extract_df_restaurants(cuisine, wheelchair=True)
-    stations_df = extract_df_stations(wheelchair=True)
+    restaurants_df = extract_df_restaurants(cuisine, wheelchair=False)
     if len(restaurants_df.index) >= 15:
         X = np.array(restaurants_df[["lon", "lat"]])
 
@@ -39,28 +39,19 @@ for cuisine in cuisines:
         # Getting the cluster centers
         C = kmeans.cluster_centers_
 
-        # Vemos el representante del grupo, el usuario cercano a su centroid
+        # Get the address of centroids
+        for i in range(0, C[:, 0].size, 1):
+            g = geocoder.osm([C[:, 1][i], C[:, 0][i]], method='reverse')
+            print(g.address)
+
         closest, _ = pairwise_distances_argmin_min(kmeans.cluster_centers_, X)
 
         clusters_indices = defaultdict(list)
         for index, c in enumerate(kmeans.labels_):
             clusters_indices[c].append(index)
 
-        # print(clusters_indices[0])
-
-        # for cluster in clusters_indices:  
-
         plt.scatter(X[:, 0], X[:, 1], color='red', s=20)
         plt.scatter(C[:, 0], C[:, 1], marker='*', color='blue', s=40)
-
-        # plt.scatter(stations_df['lon'], stations_df['lat'], color='green',
-        #             s=20)
-
-        # Plots relations between centroids and restaurants
-        # for idx, centroid in enumerate(centroids):
-        #     x, y = centroid[0], centroid[1]
-        #     for restaurant in clusters_indices[idx]:
-        #         print(restaurant)
 
         plt.grid(True)
         plt.title('cuisine {}'.format(cuisine))
