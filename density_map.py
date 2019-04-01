@@ -33,12 +33,12 @@ def initial(datasets):
 
     @param: datasets. A list with the names of datasets to be analysed.
     """
-    df_dict = {'atms': extract_df_atms(),
+    df_dict = {'atms': extract_df_atms(wheelchair=False),
                'gas_stations': extract_df_gas_stations(),
                'restaurants': extract_df_restaurants(cuisine='all',
                                                      wheelchair=False),
                'stations': extract_df_stations(wheelchair=False),
-               'supermarkets': extract_df_supermarkets()}
+               'supermarkets': extract_df_supermarkets(wheelchair=False)}
 
     # Using create_divisions function we will get two numpy arrays
     # spaced by gap value (in meters).
